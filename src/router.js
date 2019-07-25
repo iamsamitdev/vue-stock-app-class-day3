@@ -1,6 +1,9 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
+import HomeComponent from "./components/HomeComponent.vue";
+import CreateComponent from "./components/CreateComponent.vue";
+import ShowComponent from "./components/ShowComponent.vue";
+import EditComponent from "./components/EditComponent.vue";
 
 Vue.use(Router);
 
@@ -11,16 +14,26 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: Home
+      component: HomeComponent,
+      meta: { title: "Home" }
     },
     {
-      path: "/about",
-      name: "about",
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () =>
-        import(/* webpackChunkName: "about" */ "./views/About.vue")
+      path: "/create",
+      name: "create",
+      component: CreateComponent,
+      meta: { title: "Create" }
+    },
+    {
+      path: "/show",
+      name: "show",
+      component: ShowComponent,
+      meta: { title: "Show" }
+    },
+    {
+      path: "/edit/:id",
+      name: "edit",
+      component: EditComponent,
+      meta: { title: "Edit" }
     }
   ]
 });

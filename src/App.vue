@@ -1,31 +1,38 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+  <div>
+    <NavBar />
+
+    <div class="container mt-4">
+      <transition name="slide-up">
+        <router-view></router-view>
+      </transition>
     </div>
-    <router-view />
+
   </div>
 </template>
 
-<style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
+<script>
+import NavBar from "./components/NavBar.vue";
+export default {
+  name: "app",
+  components: {
+    NavBar
+  }
+};
+</script>
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+<style scoped>
+    .slide-up-enter-active{
+      transition: all 0.5s ease;
+    }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+     .slide-up-leave-active{
+        transition: all 0.1s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+      }
+
+      .slide-up-enter,
+      .slide-up-leave-to{
+        transform: translateY(10vh);
+        opacity: 0;
+      }
 </style>
