@@ -1,54 +1,44 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Sock",
-        "description": "Shop fun crew socks and ankle socks from your favorite brands at Zumiez",
-        "price": 19,
-        "imgurl": "https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Odd-Future-Donut-Allover-Blue-Crew-Socks-_224459-front.jpg",
-        "category": "Cloth",
-        "date": "2019-01-03",
-        "time": "2:00"
-      },
-      {
-        "id": 2,
-        "name": "Nixon Sentry 42 Leather Bronze",
-        "description": "The Sentry Leather watch in bronze and gunmetal from Nixon raises the bar with its classic inspired styling and bold lines. This timepiece is featured in a gunmetal 42mm case finished with bronze accents and a wide brown genuine leather band. The face of this watch is in a white colorway with black faceted applied hour indices and printed seconds track. Along with a date and day window at the 3 o'clock hour marker and custom molded hands, this watch is perfect for the stylish person indeed",
-        "price": 149.95,
-        "imgurl": "https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Nixon-Sentry-42-Leather-Bronze-%26-Gunmetal-Watch-_285716-front-US.jpg",
-        "category": "Watches",
-        "date": "2019-03-03",
-        "time": "8:00"
-      },
-      {
-        "id": 3,
-        "name": "iT7 Rose Wireless Earbuds",
-        "description": "The Sentry Leather watch in bronze and gunmetal from Nixon raises the bar with its classic inspired styling and bold lines. This timepiece is featured in a gunmetal 42mm case finished with bronze accents and a wide brown genuine leather band. The face of this watch is in a white colorway with black faceted applied hour indices and printed seconds track. Along with a date and day window at the 3 o'clock hour marker and custom molded hands, this watch is perfect for the stylish person indeed",
-        "price": 22.9,
-        "imgurl": "https://scene7.zumiez.com/is/image/zumiez/pdp_hero/iT7-Rose-Wireless-Earbuds-_321135-front-US.jpg",
-        "category": "Headphones",
-        "date": "2019-06-11",
-        "time": "5:10"
-      },
-      {
-        "name": "Polaroid Originals OneStep 2 Viewfinder White Instant Camera",
-        "description": "Inspired by the original OneStep camera from 1977, the OneStep 2 Viewfinder White Instant Camera from Polaroid Originals is here to capture your greatest moments. With only a few buttons, the OnStep 2 VF features an easy-to-use interface that works straight out of the box. With a high quality lens and powerful flash, this instant camera will give you great photos every time. The OneStep 2 Viewfinder is compatible with i-Type or 600 film to create your unique images. The improved viewfinder makes framing your photos super intuitive, plus it's long-lasting rechargeable battery will have you ready to shoot at the drop of a dim",
-        "price": 120,
-        "imgurl": "https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Polaroid-Originals-OneStep-2-Viewfinder-White-Instant-Camera-_312247-front-US.jpg",
-        "category": "Cameras",
-        "date": "2019-10-01",
-        "time": "7:00",
-        "id": 4
-      },
-      {
-        "category": "Sunglasse",
-        "name": "Spy Cyrus Matte Black Happy Bronze",
-        "description": "Get a comfortable fit thanks to a rubberized matte black frame with bronze and blue Spectra 6-base polycarbonate ARC Happy Lenses for amazing color enhancement and glare reductio",
-        "price": "109",
-        "imgurl": "https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Spy-Cyrus-Matte-Black-Happy-Bronze-%26-Blue-Spectra-Sunglasses-_245496-front-US.jpg",
-        "date": "2019-10-30",
-        "time": "18:30",
-        "id": 5
-      }
-    ]
-  }
+  "products": [
+    {
+      "id": 1,
+      "name": "Socks",
+      "description": "Shop fun crew socks and ankle socks from your favorite brands at Zumiezs",
+      "price": "25",
+      "imgurl": "https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Odd-Future-Donut-Allover-Blue-Crew-Socks-_224459-front.jpg",
+      "category": "Cloths",
+      "date": "2019-01-11",
+      "time": "2:11"
+    },
+    {
+      "id": 2,
+      "name": "Nixon Sentry 42 Leather Bronze",
+      "description": "The Sentry Leather watch in bronze and gunmetal from Nixon raises the bar with its classic inspired styling and bold lines. This timepiece is featured in a gunmetal 42mm case finished with bronze accents and a wide brown genuine leather band. The face of this watch is in a white colorway with black faceted applied hour indices and printed seconds track. Along with a date and day window at the 3 o'clock hour marker and custom molded hands, this watch is perfect for the stylish person indeed",
+      "price": 149.95,
+      "imgurl": "https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Nixon-Sentry-42-Leather-Bronze-%26-Gunmetal-Watch-_285716-front-US.jpg",
+      "category": "Watches",
+      "date": "2019-03-03",
+      "time": "8:00"
+    },
+    {
+      "id": 3,
+      "name": "iT7 Rose Wireless Earbuds",
+      "description": "The Sentry Leather watch in bronze and gunmetal from Nixon raises the bar with its classic inspired styling and bold lines. This timepiece is featured in a gunmetal 42mm case finished with bronze accents and a wide brown genuine leather band. The face of this watch is in a white colorway with black faceted applied hour indices and printed seconds track. Along with a date and day window at the 3 o'clock hour marker and custom molded hands, this watch is perfect for the stylish person indeed",
+      "price": 22.9,
+      "imgurl": "https://scene7.zumiez.com/is/image/zumiez/pdp_hero/iT7-Rose-Wireless-Earbuds-_321135-front-US.jpg",
+      "category": "Headphones",
+      "date": "2019-06-11",
+      "time": "5:10"
+    },
+    {
+      "name": "Vans Old Skool Flame Black",
+      "imgurl": "https://scene7.zumiez.com/is/image/zumiez/pdp_hero/Vans-Old-Skool-Flame-Black-%26-White-Skate-Shoes-_279736-front-US.jpg",
+      "description": "Grab classic retro styling with the Vans Old Skool Flame Black and White Skate Shoes. Embodying a suede upper with canvas along the sidewalls and double stitching details throughout high abrasion areas. Featured with bright flame graphic print along the canvas sidewalls, these shoes will work wonders for your skating having an all around vulcanized construction for optimal board feel.",
+      "price": "59.95",
+      "category": "Shoe",
+      "date": "2019-30-10",
+      "time": "20:30",
+      "id": 6
+    }
+  ]
+}
